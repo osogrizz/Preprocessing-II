@@ -10,6 +10,22 @@ header {
     justify-content: space-between;
     max-width: 800px;
     margin: 30px auto;
+    
+    @media @mobile {
+      display: block;
+      h1 {
+        width: 100%;  
+        text-align: center;
+      }
+      nav {
+        margin: 20px 0;
+        text-align: center;
+        a {
+          justify-content: space-evenly;
+        }
+      }
+
+    }
   }
   
   nav {

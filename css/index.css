@@ -181,6 +181,22 @@ header .nav-container {
   max-width: 800px;
   margin: 30px auto;
 }
+@media (max-width: 510px) {
+  header .nav-container {
+    display: block;
+  }
+  header .nav-container h1 {
+    width: 100%;
+    text-align: center;
+  }
+  header .nav-container nav {
+    margin: 20px 0;
+    text-align: center;
+  }
+  header .nav-container nav a {
+    justify-content: space-evenly;
+  }
+}
 header nav {
   text-align: right;
 }
