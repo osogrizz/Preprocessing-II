@@ -172,7 +172,7 @@ header {
   margin: 30px auto;
 }
 header .nav-wrapper {
-  border-bottom: 2px dashed silver;
+  border-bottom: 2px dashed #C0C0C0;
 }
 header .nav-container {
   display: flex;
@@ -256,8 +256,8 @@ header .header-blob h2 {
   margin-bottom: 30px;
 }
 .home .content-pick .destination .btn {
-  background: teal;
-  color: #fff;
+  background: #17A2B8;
+  color: #FFFFFF;
   padding: 15px 0;
   border-radius: 10px;
   text-align: center;

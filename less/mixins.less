@@ -1,7 +1,7 @@
 // Mixins in here
-.buttons() {
-  background: teal;
-  color: #fff;
+.buttons(@background, @text-color) {
+  background: @background;
+  color: @text-color;
   padding: 15px 0;
   border-radius: 10px;
   text-align: center;
