@@ -206,6 +206,11 @@ header nav a {
   color: black;
   font-size: 1.6rem;
 }
+header nav a:hover {
+  color: red;
+  border-bottom: 3px dashed green;
+  transition: 2s ease-in-out;
+}
 header .header-blob {
   max-width: 800px;
   margin: 0 auto;
